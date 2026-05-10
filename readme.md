@@ -1,7 +1,7 @@
 # mugunghwa
 Experimental backend Rust-based Cloudflare worker for [ln2r.work](https://ln2r.work)
 
-_**Notes: this project branch is under read-only state and was made as a learning purpose, feel free to fork or re-use the project.**_
+_Built as an experiment into Rust based Cloudflare worker. Fully implemented auth system using JWT, argon2 (password), and KV for session storage. Moved on into another stack because the amount of workarounds I need to do to satisfy WASM and [crates limitation](https://developers.cloudflare.com/workers/languages/rust/crates/) wasn't worth the maintenance overhead, and if I have to do this again, I'd do it in vanilla Rust environment than doing it on some serverless constraint._
 
 # Requirements
 GitHub Api Key - https://docs.github.com/en/rest
